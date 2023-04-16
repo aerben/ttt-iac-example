@@ -11,6 +11,8 @@ Resources:
     Properties:
       BucketName: !Ref BucketName
       AccessControl: PublicRead
+      VersioningConfiguration:
+        Status: Disabled
       PublicAccessBlockConfiguration:
         BlockPublicAcls: false
         BlockPublicPolicy: false
