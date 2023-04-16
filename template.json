@@ -4,7 +4,7 @@
     "Parameters": {
         "BucketName": {
             "Type": "String",
-            "Default": "my-unique-bucket-name-1234"
+            "Default": "my-unique-bucket-name-12345"
         }
     },
     "Resources": {
