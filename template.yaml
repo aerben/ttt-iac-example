@@ -10,7 +10,12 @@ Resources:
     Type: "AWS::S3::Bucket"
     Properties:
       BucketName: !Ref BucketName
+      AccessControl: PublicRead
       PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
 
 
 Outputs:
